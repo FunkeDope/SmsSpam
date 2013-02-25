@@ -31,7 +31,7 @@ public class SmsSpamActivity extends Activity {
 	final String DEFAULT_AMOUNT = "30";
 	final String DEFAULT_DELAY = "50";
 	
-	SmsManager sm = SmsManager.getDefault();
+	SmsManager sm = SmsManager.getDefault(); 
 	
 	SharedPreferences prefs;
 	
